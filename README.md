@@ -172,14 +172,3 @@ DocuMind-AI/
 
 ---
 
-## 👩‍💻 Author
-
-**Shreya J**
-
-Computer Science Engineering Student
-
-AI • Backend Development • Generative AI
-
-GitHub: https://github.com/YOUR_USERNAME
-
-LinkedIn: https://linkedin.com/in/YOUR_LINKEDIN
