@@ -145,8 +145,8 @@ DocuMind-AI/
 ├── screenshots/
 │   ├── home.png
 │   ├── upload.png
-│   ├── question.png
-│   └── answer.png
+│   
+│  
 │
 └── utils/
     ├── chatbot.py
