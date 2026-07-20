@@ -1,0 +1,289 @@
+/* ==========================
+   Google Font
+========================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ==========================
+   Background
+========================== */
+
+.stApp{
+    background: linear-gradient(
+        135deg,
+        #FFF8FC 0%,
+        #F5F3FF 30%,
+        #EEF7FF 70%,
+        #F6FFF9 100%
+    );
+}
+
+
+/* ==========================
+   Main Container
+========================== */
+
+.main .block-container{
+    padding-top:2rem;
+    padding-left:3rem;
+    padding-right:3rem;
+}
+
+
+/* ==========================
+   Sidebar
+========================== */
+
+section[data-testid="stSidebar"]{
+    background:#FAFAFF;
+    border-right:1px solid #ECECEC;
+}
+
+section[data-testid="stSidebar"] h1{
+    color:#2D2D44 !important;
+}
+
+section[data-testid="stSidebar"] p,
+section[data-testid="stSidebar"] span,
+section[data-testid="stSidebar"] li{
+    color:#555 !important;
+}
+
+
+/* ==========================
+   Titles
+========================== */
+
+h1{
+    color:#2C2C54 !important;
+    font-size:42px !important;
+    font-weight:700 !important;
+}
+
+h2{
+    color:#3A3A5C !important;
+}
+
+h3,h4,h5,h6{
+    color:#4A4A68 !important;
+}
+
+
+/* ==========================
+   Normal Text
+========================== */
+
+p,
+label,
+span,
+small,
+li{
+    color:#444 !important;
+}
+
+
+/* ==========================
+   Caption
+========================== */
+
+[data-testid="stCaptionContainer"]{
+    color:#666 !important;
+}
+
+
+/* ==========================
+   Upload Box
+========================== */
+
+[data-testid="stFileUploader"]{
+    background:white;
+    border-radius:18px;
+    border:2px dashed #DCCBFF;
+    padding:18px;
+}
+
+
+/* ==========================
+   Input Box
+========================== */
+
+.stTextInput input{
+
+    background:white !important;
+
+    color:#333 !important;
+
+    border-radius:15px !important;
+
+    border:2px solid #DCCBFF !important;
+
+    padding:12px !important;
+}
+
+
+/* ==========================
+   Buttons
+========================== */
+
+.stButton>button{
+
+    width:100%;
+
+    background:#C8B6FF;
+
+    color:white;
+
+    border:none;
+
+    border-radius:14px;
+
+    font-weight:600;
+
+    font-size:16px;
+
+    padding:12px;
+
+    transition:0.3s;
+}
+
+.stButton>button:hover{
+
+    background:#B197FC;
+
+    transform:translateY(-2px);
+
+    box-shadow:0 8px 20px rgba(177,151,252,.35);
+
+}
+
+
+/* ==========================
+   Metric Cards
+========================== */
+
+[data-testid="metric-container"]{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    border:1px solid #ECECEC;
+
+    box-shadow:0 6px 18px rgba(0,0,0,.06);
+
+}
+
+
+/* ==========================
+   Success
+========================== */
+
+.stSuccess{
+
+    border-radius:15px;
+
+}
+
+
+/* ==========================
+   Info
+========================== */
+
+.stInfo{
+
+    border-radius:15px;
+
+}
+
+
+/* ==========================
+   Warning
+========================== */
+
+.stWarning{
+
+    border-radius:15px;
+
+}
+
+
+/* ==========================
+   Expanders
+========================== */
+
+.streamlit-expanderHeader{
+
+    font-weight:600;
+
+    font-size:16px;
+
+}
+
+
+/* ==========================
+   Code Blocks
+========================== */
+
+pre{
+
+    border-radius:14px;
+
+}
+
+
+/* ==========================
+   Scrollbar
+========================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#C8B6FF;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#F6F6F6;
+
+}
+
+
+/* ==========================
+   Footer
+========================== */
+
+footer{
+
+    visibility:hidden;
+
+}
+
+header{
+
+    visibility:hidden;
+
+}
+
+
+/* ==========================
+   Markdown Containers
+========================== */
+
+[data-testid="stMarkdownContainer"]{
+
+    color:#333 !important;
+
+}
